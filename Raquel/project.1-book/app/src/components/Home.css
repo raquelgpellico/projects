@@ -1,0 +1,18 @@
+.Home {
+    align-items: center;
+    height: 100%;
+    padding: 150px;
+    gap: 2rem;
+    background: url(../img/El-mejor-libro.webp) no-repeat center;
+}
+
+.button {
+    font-family: 'gadugi';
+    font-weight: 75;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(94.58deg, #FF8AE5 10.99%, rgba(255, 3, 3, 0.51) 100%);
+    margin: 5%;
+}

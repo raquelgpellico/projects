@@ -1,0 +1,41 @@
+
+.mbook{
+    font-family: 'gadugi';
+    font-weight: 200;
+    font-size: 350%;
+    font-style: italic;
+}
+
+.detail{
+    text-decoration: none;
+    font-size: x-large;
+
+}
+
+.detail__category{
+    text-decoration: none;
+    font-size: small;
+}
+.ul{
+    padding: .5rem;
+    font-family: 'gadugi';
+    position: relative;
+    color: rgb(26, 44, 59);
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    border-bottom: solid 2px;
+    margin-right: 25%;
+}
+
+.book__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

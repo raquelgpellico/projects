@@ -1,0 +1,37 @@
+
+.Landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 150px;
+    gap: 2rem;
+    background: url(../img/El-mejor-libro.webp) no-repeat center;
+}
+
+.intro{
+    font-family: 'gadugi';
+    font-weight: 100;
+}
+
+.title{
+    font-family: 'gadugi';
+    font-weight: 75;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    
+   
+}
+
+.btt {
+    font-family: 'gadugi';
+    width: 161px;
+    height: 56px;
+    background: linear-gradient(94.58deg, #FF8AE5 10.99%, rgba(255, 3, 3, 0.51) 100%); 
+    box-shadow: inset 1px -1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+

@@ -1,0 +1,59 @@
+
+.page{
+    background: url(../img/El-mejor-libro.webp) ;
+    background-size: contain;
+}
+.buttons {
+    font-family: "gadugi";
+    width: 161px;
+    height: 56px;
+    background: linear-gradient(94.58deg, #FF8AE5 10.99%, rgba(255, 3, 3, 0.51) 100%);
+    box-shadow: inset 1px -1px 3px rgba(0, 0, 0, 0.25); 
+    border-radius: 20px;
+    text-overflow: clip;
+    margin: 15px;
+}
+
+.mbook{
+    font-family: 'gadugi';
+    font-weight: 200;
+    font-size: 350%;
+    font-style: italic;
+}
+
+.detail{
+    list-style-type: none;
+    font-size: x-large;
+
+}
+
+.detail__category{
+    text-decoration: none;
+    font-size: medium;
+}
+ul{
+    padding: .5rem;
+    font-family: 'gadugi';
+    position: relative;
+    color: rgb(26, 44, 59);
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    border-bottom: solid 2px;
+    margin-right: 25%;
+}
+
+
+.book__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
